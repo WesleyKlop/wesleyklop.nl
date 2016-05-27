@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.scss"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley Klop</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100%7CSource+Code+Pro' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="style/style.min.css"/>
+</head>
+<body>
+<div id="home"></div>
+<div class="sidebar">
+
+    <header>
+        <h1><a href="./">Wesley Klop</a></h1>
+        <p>Web development student</p>
+    </header>
+    <div class="me">
+        <!-- picture of me? -->
+        <img src="logos/logos/material-ui.svg"/>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="links">
+        links
+        <ul>
+            <li><a href="https://wesleyklop.nl/cv/index.html">My cv(dutch)</a></li>
+            <li><a href="https://github.com/WesleyKlop">Github</a></li>
+            <li><a href="https://bitbucket.org/WesleyKlop">Bitbucket</a></li>
+            <li><a href="https://twitter.com/WesleyKlop">Twitter</a></li>
+        </ul>
+    </div>
+</div>
+
+<main>
+    <section id="about">
+        <header>
+            <a href="#about">#</a>
+            <h2>About me</h2>
+        </header>
+        <div class="content">
+            <p>Hi! My name is Wesley Klop and I am a Dutch web development student at the <a href="https://www.glr.nl">Grafisch
+                Lyceum Rotterdam</a>. I'm
+                currently 18 years old and I have a passion for making websites and working with servers. (Like the one
+                hosting this website!)</p>
+            <p>My interest for computers was sparked in the first class of middle school when I was around 13-14 years
+                old.
+                <wbr/>
+                When I had IT class the teacher would always ask me if I could help the rest of my classmates with their
+                issues! It was that same year I wrote my first <code>.html</code> file using notepad.
+            </p>
+            <p>Since then I have learned a lot about the whole process of making a website and getting it running. I'm
+                very interested in both making websites and making sure they are running on an up-to-date and stable
+                server.
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <header>
+            <a href="#skills">#</a>
+            <h2>Skills</h2>
+        </header>
+        <div class="content">
+            <p>I have experience with a lot of technologies and this is a list that will keep on expanding.<br/>
+                I'm always excited to learn new things and to make improvements on previous projects. </p>
+            <p>My full CV can be found <a href="./cv/">here</a>.</p>
+
+            <ul class="skill--container no-cols">
+                <li><img src="logos/logos/composer.svg" title="Composer" alt="Composer"/></li>
+                <li><img src="logos/logos/laravel.svg" title="Laravel" alt="Laravel"/></li>
+                <li><img src="logos/logos/sass.svg" title="Sass/Scss" alt="Sass/Scss"/></li>
+                <li><img src="logos/logos/android-icon.svg" title="Android (Java)" alt="Android (Java)"/></li>
+                <li><img src="logos/logos/dotnet.svg" title="C# .NET" alt="C# .NET"/></li>
+                <li><img src="logos/logos/jquery.svg" title="jQuery" alt="jQuery"/></li>
+                <li><img src="logos/logos/git-icon.svg" title="Git" alt="Git"/></li>
+                <li><img src="logos/logos/npm.svg" title="Node Package Manager (NPM)" alt="Node Package Manager (NPM)"/>
+                </li>
+                <li><img src="logos/logos/gulp.svg" title="Gulp" alt="Gulp"/></li>
+
+            </ul>
+            <h3>Languages</h3>
+            <ul class="skill--container no-cols">
+                <li><img src="logos/logos/php.svg" title="PHP 7.0" alt="PHP 7.0"/></li>
+                <li><img src="logos/logos/html-5.svg" title="HTML5" alt="HTML5"/></li>
+                <li><img src="logos/logos/css-3.svg" title="CSS3" alt="CSS3"/></li>
+                <li><img src="logos/logos/es6.svg" title="ECMAScript 6" alt="ECMAScript 6"/></li>
+                <li><img src="logos/logos/java.svg" title="Java" alt="Java"/></li>
+            </ul>
+            <h3>Server</h3>
+            <ul class="skill--container no-cols">
+                <li><img src="logos/logos/ubuntu.svg" title="Ubuntu Server 14.04 & 16.04"
+                         alt="Ubuntu Server 14.04 & 16.04"/></li>
+                <li><img src="logos/logos/mysql.svg" title="MySQL / MariaDb" alt="MySQL / MariaDb"/></li>
+                <li><img src="logos/logos/bash.svg" title="Bash / Zsh" alt="Bash / Zsh"/></li>
+                <li><img src="logos/logos/nginx.svg" title="Nginx" alt="Nginx"/></li>
+                <li><img src="logos/logos/apache.svg" title="Apache2" alt="Apache2"/></li>
+            </ul>
+            <h3>Editors</h3>
+            <ul class="skill--container no-cols">
+                <li><img src="logos/logos/phpstorm.svg" title="PhpStorm" alt="PhpStorm"/></li>
+                <li><img src="logos/logos/visual-studio.svg" title="Visual Studio" alt="Visual Studio"/></li>
+                <li><img src="logos/logos/vim.svg" title="Vim" alt="Vim" data-el-is-better-than="Emacs"/></li>
+            </ul>
+        </div>
+    </section>
+    <section class="filler"></section>
+</main>
+
+<!-- scripts -->
+<script src="//code.jquery.com/jquery-2.2.4.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/smoothscroll.js"></script>
+<script src="scripts/analytics.js"></script>
+</body>
+</html>
