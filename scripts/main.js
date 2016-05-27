@@ -13,7 +13,23 @@
     } else {
         anchor = d.querySelector('body');
     }
-    anchor.insertBefore(home, anchor.firstElementChild)
+    anchor.insertBefore(home, anchor.firstElementChild);
 
-    
+    // Make links open in new tabs
+    let urls = d.querySelectorAll('a'),
+        regex = new RegExp('/' + window.location.host + '/');
+    for (let key in urls) {
+        if (urls.hasOwnProperty(key)) {
+            let url = urls[key];
+            if (!regex.test(url.href)) {
+                //console.log(url.href, 'Will open externally');
+                url.addEventListener('click', e => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.open(url.href, '_blank');
+                });
+            }
+        }
+    }
+
 })(document, window);
