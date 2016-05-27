@@ -167,7 +167,7 @@ main {
     }
 
     .portfolio--item {
-      min-height: calc(150px + 1em);
+      min-height: calc(150px + 2em);
       padding: 0 auto 1em auto;
       img {
         width: 150px;
@@ -175,7 +175,7 @@ main {
         margin: 1em auto 0 auto;
         display: block;
       }
-      a {
+      a.block {
         display: block;
       }
       &__description {
@@ -185,6 +185,7 @@ main {
         }
         footer {
           border-top: none;
+          margin-bottom: 0.5em;
         }
       }
       &:not(:last-of-type) {
