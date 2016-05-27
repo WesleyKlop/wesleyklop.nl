@@ -4,16 +4,20 @@
     <link rel="stylesheet" type="text/css" href="style/style.scss"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
+    <meta name="author" content="Wesley Klop">
+    <meta name="description" content="I develop websites, apps and manage a server. This is my website!">
+    <meta name="keywords"
+          content="PHP,HTML,HTML5,CSS,CSS3,javascript,ecmascript,ecmascript 6,composer,laravel,ubuntu,git,github,bitbucket,material,mysql,mariadb,servers,web,webdev,developer"/>
+
     <title>Wesley Klop</title>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100%7CSource+Code+Pro' rel='stylesheet'
           type='text/css'>
+    <link rel="stylesheet" href="style/normalize.min.css"/>
     <link rel="stylesheet" href="style/style.min.css"/>
 </head>
 <body>
-<div id="home"></div>
 <div class="sidebar">
-
     <header>
         <h1><a href="./">Wesley Klop</a></h1>
         <p>Web development student</p>
@@ -27,7 +31,7 @@
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portfolio">Projects</a></li>
         </ul>
     </nav>
     <div class="links">
@@ -74,19 +78,6 @@
                 I'm always excited to learn new things and to make improvements on previous projects. </p>
             <p>My full CV can be found <a href="./cv/">here</a>.</p>
 
-            <ul class="skill--container no-cols">
-                <li><img src="logos/logos/composer.svg" title="Composer" alt="Composer"/></li>
-                <li><img src="logos/logos/laravel.svg" title="Laravel" alt="Laravel"/></li>
-                <li><img src="logos/logos/sass.svg" title="Sass/Scss" alt="Sass/Scss"/></li>
-                <li><img src="logos/logos/android-icon.svg" title="Android (Java)" alt="Android (Java)"/></li>
-                <li><img src="logos/logos/dotnet.svg" title="C# .NET" alt="C# .NET"/></li>
-                <li><img src="logos/logos/jquery.svg" title="jQuery" alt="jQuery"/></li>
-                <li><img src="logos/logos/git-icon.svg" title="Git" alt="Git"/></li>
-                <li><img src="logos/logos/npm.svg" title="Node Package Manager (NPM)" alt="Node Package Manager (NPM)"/>
-                </li>
-                <li><img src="logos/logos/gulp.svg" title="Gulp" alt="Gulp"/></li>
-
-            </ul>
             <h3>Languages</h3>
             <ul class="skill--container no-cols">
                 <li><img src="logos/logos/php.svg" title="PHP 7.0" alt="PHP 7.0"/></li>
@@ -108,17 +99,83 @@
             <ul class="skill--container no-cols">
                 <li><img src="logos/logos/phpstorm.svg" title="PhpStorm" alt="PhpStorm"/></li>
                 <li><img src="logos/logos/visual-studio.svg" title="Visual Studio" alt="Visual Studio"/></li>
+                <li><img src="logos/logos/android-icon.svg" title="Android Studio" alt="Android Studio"/></li>
                 <li><img src="logos/logos/vim.svg" title="Vim" alt="Vim" data-el-is-better-than="Emacs"/></li>
             </ul>
+            <h3>Other things I use a lot</h3>
+            <ul class="skill--container no-cols">
+                <li><img src="logos/logos/composer.svg" title="Composer" alt="Composer"/></li>
+                <li><img src="logos/logos/sass.svg" title="Sass/Scss" alt="Sass/Scss"/></li>
+                <li><img src="logos/logos/git-icon.svg" title="Git" alt="Git"/></li>
+                <li><img src="logos/logos/npm.svg" title="Node Package Manager (NPM)" alt="Node Package Manager (NPM)"/>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="portfolio">
+        <header>
+            <a href="#portfolio">#</a>
+            <h2>Projects</h2>
+        </header>
+        <div class="content">
+            <p>
+                These are some of the projects I have worked on since about a year or two ago, with my favorite projects
+                on top!
+            </p>
+            <div class="portfolio--item">
+                <img src="logos/logos/bitbucket.svg">
+                <div class="portfolio--item__description">
+                    <h3>RatchetChat</h3>
+                    <p>This is an online chat system using web sockets with the PHP library Ratchet as the backend. It
+                        also
+                        uses an LDAP library to authenticate with the domain controller to let domain users login with
+                        their
+                        existing account. It will support banning users, logging the chat and loading older messages. I
+                        am still working on this projects for a school assignment. <br/>
+                        <a href="https://github.com/WesleyKlop/RatchetChat">Check it out on Github!</a></p>
+                    <footer>
+                        Things used: PHP, Ratchet, Composer, Git, PhpStorm, ECMAScript 6, Material Design Lite.
+                    </footer>
+                </div>
+            </div>
+            <div class="portfolio--item">
+                <img src="logos/logos/bitbucket.svg">
+                <div class="portfolio--item__description">
+                    <h3>RatchetChat</h3>
+                    <p>This is an online chat system using web sockets with the PHP library Ratchet as the backend. It
+                        also
+                        uses an LDAP library to authenticate with the domain controller to let domain users login with
+                        their
+                        existing account.
+                        I am still working on this projects for a school assignment.</p>
+                    <footer>
+                        Things used: PHP, Ratchet, Composer, Git, PhpStorm, ECMAScript 6, Material Design Lite.
+                    </footer>
+                </div>
+            </div>
+            <div class="portfolio--item">
+                <img src="logos/logos/bitbucket.svg">
+                <div class="portfolio--item__description">
+                    <h3>RatchetChat</h3>
+                    <p>This is an online chat system using web sockets with the PHP library Ratchet as the backend. It
+                        also
+                        uses an LDAP library to authenticate with the domain controller to let domain users login with
+                        their
+                        existing account. I am still working on this projects for a school assignment.</p>
+                    <footer>
+                        Things used: PHP, Ratchet, Composer, Git, PhpStorm, ECMAScript 6, Material Design Lite.
+                    </footer>
+                </div>
+            </div>
         </div>
     </section>
     <section class="filler"></section>
 </main>
 
 <!-- scripts -->
-<script src="//code.jquery.com/jquery-2.2.4.js"></script>
-<script src="scripts/main.js"></script>
-<script src="scripts/smoothscroll.js"></script>
-<script src="scripts/analytics.js"></script>
+<!--<script src="//code.jquery.com/jquery-2.2.4.js"></script>-->
+<script async defer src="scripts/main.js"></script>
+<!--<script src="scripts/smoothscroll.js"></script>-->
+<script async defer src="scripts/analytics.js"></script>
 </body>
 </html>
