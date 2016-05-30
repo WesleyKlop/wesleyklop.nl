@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="dev.wesleyklop.nl" stopOnFirstError="true" createEmptyFolders="true" uploadOnCheckin="6a5e79fd-3887-4e00-a313-f21f3b163257" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" stopOnFirstError="true" createEmptyFolders="true" uploadOnCheckin="9abafcaa-343c-4352-8fa5-46c809789034" autoUploadExternalChanges="true">
     <serverData>
       <paths name="dev.wesleyklop.nl">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/dev.wesleyklop.nl/public_html" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
