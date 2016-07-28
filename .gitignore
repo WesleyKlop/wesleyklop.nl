@@ -1,4 +1,7 @@
 .idea/
-node_modules
-cv
+node_modules/
+vendor/
+cv/
 /images/wesley.*
+*.min.css
+*.min.css.map
