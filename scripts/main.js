@@ -15,9 +15,9 @@
     }
     anchor.insertBefore(home, anchor.firstElementChild);
 
-    // Make links open in new tabs
+    // Make external links open in new tabs
     let urls = d.querySelectorAll('a'),
-        regex = new RegExp('/' + window.location.host + '/');
+        regex = new RegExp('/' + w.location.host + '/');
     for (let key in urls) {
         if (urls.hasOwnProperty(key)) {
             let url = urls[key];
@@ -26,7 +26,7 @@
                 url.addEventListener('click', e => {
                     e.preventDefault();
                     e.stopPropagation();
-                    window.open(url.href, '_blank');
+                    w.open(url.href, '_blank');
                 });
             }
         }
